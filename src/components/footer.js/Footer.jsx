@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><Link to="mailto:examplemail@gmail.com">rshobhit255@gmail.com</Link></p>
         </div>
         <div className="contact-info-container">
           <img
@@ -21,7 +22,7 @@ const Footer = () => {
             alt="LinkedIn icon"
             className="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><Link to="https://www.linkedin.com">LinkedIn</Link></p>
         </div>
       </div>
     </section>
@@ -29,10 +30,10 @@ const Footer = () => {
       <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/experience">Experience</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </nav>

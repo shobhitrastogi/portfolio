@@ -1,15 +1,18 @@
 import React from 'react'
+import Navbar from './../navbar/Navbar';
+import Footer from './../footer.js/Footer';
 
 const About = () => {
   return (
     <>
+    <Navbar />
     <section id="about">
       <p className="section__text__p1">Get To Know More</p>
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src='https://drive.google.com/uc?id=1JVbku3S5encgT8HVU2EZL2isx7Ft0S9k'
             alt="Description of about"
             className="about-pic"
           />
@@ -37,12 +40,7 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+            I am Shobhit Rastogi, currently in my second year of BCA at JS University. A dedicated and aspiring Frontend Developer and MERN Stack Developer, I bring a strong foundation in web development. Despite being a fresher, I have actively engaged in practical application, having pushed numerous projects to my GitHub repository.
             </p>
           </div>
         </div>
@@ -54,6 +52,7 @@ const About = () => {
         onclick="location.href='./#experience'"
       />
     </section>
+    <Footer />  
     </>
   )
 }

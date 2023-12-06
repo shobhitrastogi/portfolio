@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from './../navbar/Navbar';
-import About from './../about-me/About';
-import Experience from './../experience/Experience';
-import Projects from './../projects/Projects';
+import { useNavigate } from 'react-router-dom';
 import Footer from './../footer.js/Footer';
 
 const Main = () => {
+  const navigate = useNavigate();
   return (
     <>
     <Navbar />
     <section id="profile">
       <div className="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Shobhit Rastogi" />
+      <img src="https://drive.google.com/uc?id=1JSl3158TOIA8mnf7JFcuZxxKZiaRcjIG" alt="Shobhit Rastogi" />
+
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
@@ -25,7 +25,7 @@ const Main = () => {
           >
             Download CV
           </button>
-          <button className="btn btn-color-1" onclick="location.href='./#contact'">
+          <button className="btn btn-color-1" onClick={()=>navigate('/contact')}>
             Contact Info
           </button>
         </div>
@@ -34,7 +34,7 @@ const Main = () => {
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onClick={()=>"location.href='https://linkedin.com/'"}
           />
           <img
             src="./assets/github.png"
@@ -45,11 +45,7 @@ const Main = () => {
         </div>
       </div>
     </section>
-    <About />
-    <Experience />
-    <Projects />
-    <Footer />
-
+   <Footer />
     </>
   )
 }

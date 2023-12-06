@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './../navbar/Navbar';
+import Footer from './../footer.js/Footer';
 
 const Experience = () => {
   return (
     <>
+    <Navbar />
      <section id="experience">
       <p className="section__text__p1">Explore My</p>
       <h1 className="title">Experience</h1>
@@ -127,6 +130,7 @@ const Experience = () => {
         onclick="location.href='./#projects'"
       />
     </section>
+    <Footer />
     </>
   )
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../navbar/Navbar'
+import Footer from './../footer.js/Footer';
 
 const Projects = () => {
   return (
     <>
+    <Navbar />
     <section id="projects">
       <p className="section__text__p1">Browse My Recent</p>
       <h1 className="title">Projects</h1>
@@ -89,6 +92,7 @@ const Projects = () => {
         onclick="location.href='./#contact'"
       />
     </section>
+    <Footer />
     </>
   )
 }
