@@ -8,7 +8,7 @@ const Main = () => {
     <Navbar />
     <section id="profile">
       <div className="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic.png" alt="Shobhit Rastogi" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>

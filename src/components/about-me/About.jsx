@@ -10,7 +10,7 @@ const About = () => {
         <div className="section__pic-container">
           <img
             src="./assets/about-pic.png"
-            alt="Profile picture"
+            alt="Description of about"
             className="about-pic"
           />
         </div>
