@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from './../navbar/Navbar';
 import About from './../about-me/About';
+import Experience from './../experience/Experience';
+import Projects from './../projects/Projects';
+import Footer from './../footer.js/Footer';
 
 const Main = () => {
   return (
@@ -43,6 +46,10 @@ const Main = () => {
       </div>
     </section>
     <About />
+    <Experience />
+    <Projects />
+    <Footer />
+
     </>
   )
 }
