@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './../navbar/Navbar';
-import Footer from './../footer.js/Footer';
 
 const About = () => {
   return (
@@ -45,14 +44,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+     
     </section>
-    <Footer />  
     </>
   )
 }

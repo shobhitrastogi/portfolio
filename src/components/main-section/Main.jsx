@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from './../navbar/Navbar';
 import { useNavigate } from 'react-router-dom';
-import Footer from './../footer.js/Footer';
 
 const Main = () => {
   const navigate = useNavigate();
@@ -18,34 +17,48 @@ const Main = () => {
         <h1 className="title">Shobhit Rastogi</h1>
         <p className="section__text__p2">Frontend Developer</p>
         <p className="section__text__p2">Mern Stack Developer</p>
-        <div className="btn-container">
-          <button
+        <button
             className="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onClick={() => window.open('./assets/resume-example.pdf')}
           >
             Download CV
           </button>
-          <button className="btn btn-color-1" onClick={()=>navigate('/contact')}>
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            className="icon"
-            onClick={()=>"location.href='https://linkedin.com/'"}
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            className="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-color-1"
+            style={{textDecoration:'none'}}
+          >
+            View LinkedIn
+          </a>
+          <div id="socials-container">
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/linkedin.png"
+                alt="My LinkedIn profile"
+                className="icon"
+              />
+            </a>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/github.png"
+                alt="My Github profile"
+                className="icon"
+              />
+            </a>
+          </div>
       </div>
     </section>
-   <Footer />
+   
     </>
   )
 }

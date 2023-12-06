@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Footer = () => {
+const Contact = () => {
   return (
     <>
     <section id="contact">
@@ -30,6 +30,7 @@ const Footer = () => {
       <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/experience">Experience</Link></li>
             <li><Link to="/projects">Projects</Link></li>
@@ -37,10 +38,10 @@ const Footer = () => {
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 Shobhit Rastogi. All Rights Reserved.</p>
     </footer>
     </>
   )
 }
 
-export default Footer
+export default Contact

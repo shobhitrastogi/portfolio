@@ -3,7 +3,7 @@ import './App.css';
 import './Mediaqueries.css';
 import About from './components/about-me/About';
 import Experience from './components/experience/Experience';
-import Footer from './components/footer.js/Footer';
+import Contact from './components/contact/Contact';
 import Main from './components/main-section/Main';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
@@ -19,7 +19,7 @@ function App() {
       <Route  path='about' element={<About/>}/>
       <Route  path='experience' element={<Experience/>}/>
       <Route  path='projects' element={<Projects/>}/>
-      <Route  path='footer' element={<Footer/>}/>
+      <Route  path='/contact' element={<Contact/>}/>
       
     </Routes>
     </Router>
