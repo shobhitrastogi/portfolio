@@ -1,9 +1,7 @@
 import React from 'react'
 import Navbar from './../navbar/Navbar';
-import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
-  const navigate = useNavigate();
   return (
     <>
     <Navbar />
