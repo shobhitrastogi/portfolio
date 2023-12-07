@@ -32,7 +32,7 @@ const Main = () => {
           </a>
           <div id="socials-container">
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/shobhit-rastogi-/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ const Main = () => {
               />
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/shobhitrastogi"
               target="_blank"
               rel="noopener noreferrer"
             >

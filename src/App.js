@@ -8,7 +8,6 @@ import Main from './components/main-section/Main';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
-// import {About,Experience,Footer,Main,Navbar,Projects} from './main'?
 function App() {
   return (
     <>
