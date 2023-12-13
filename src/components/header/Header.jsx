@@ -1,31 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Projects from './../projects/Projects';
+import Experience from './../experience/Experience';
 
 const Header = () => {
   return (
-     <nav className="navbar navbar-expand-lg " style={{height:"60px"}}>
-      <div className="container-fluid d-flex justify-content-between align-items-center">
-        <Link className="navbar-brand m-5 p-4 fs-3" to="/">Shobhit Rastogi</Link>
-
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link className="nav-link fs-3 p-4" to="/">Home</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link fs-3 p-4" to="/about">About-Me</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link fs-3 p-4" to="/experience">Experience</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link fs-3 p-4" to="/projects">Projects</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link fs-3 p-4" to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
+    <Link className="navbar-brand" to="/">Shobhit Rastogi</Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">About</Link>
+        </li>
+         <li className="nav-item">
+          <Link className="nav-link" to="/experience">Experience</Link>
+        </li>
+         <li className="nav-item">
+          <Link className="nav-link" to="/projects">Projects</Link>
+        </li> 
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">Contact-Me</Link>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
   );
 }
 
