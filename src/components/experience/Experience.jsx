@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './../navbar/Navbar';
+import Header from '../header/Header';
 
 const Experience = () => {
   const skillsData = [
@@ -15,7 +15,7 @@ const Experience = () => {
 
   return (
     <>
-      <Navbar />
+      <Header />
       <section id="experience">
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Experience</h1>

@@ -14,7 +14,7 @@ const Contact = () => {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><Link to="mailto:examplemail@gmail.com">rshobhit255@gmail.com</Link></p>
+          <p><Link to="mailto:examplemail@gmail.com"className='text-dark'>rshobhit255@gmail.com</Link></p>
         </div>
         <div className="contact-info-container">
           <img
@@ -22,7 +22,7 @@ const Contact = () => {
             alt="LinkedIn icon"
             className="icon contact-icon"
           />
-          <p><Link to="https://www.linkedin.com">LinkedIn</Link></p>
+          <p><Link to="https://www.linkedin.com" className='text-dark'>LinkedIn</Link></p>
         </div>
       </div>
     </section>
@@ -30,11 +30,11 @@ const Contact = () => {
       <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/experience">Experience</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/" className='text-dark'>Home</Link></li>
+            <li><Link to="/about" className='text-dark'>About</Link></li>
+            <li><Link to="/experience"className='text-dark'>Experience</Link></li>
+            <li><Link to="/projects"className='text-dark'>Projects</Link></li>
+            <li><Link to="/contact"className='text-dark'>Contact</Link></li>
           </ul>
         </div>
       </nav>

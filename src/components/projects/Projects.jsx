@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
+import Header from '../header/Header';
 
 const Projects = () => {
   const projectsData = [
@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <>
-      <Navbar />
+      <Header />
       <section id="projects">
         <p className="section__text__p1">Browse My Recent</p>
         <h1 className="title">Projects</h1>

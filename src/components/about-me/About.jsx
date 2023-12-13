@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './../navbar/Navbar';
+import Header from '../header/Header';
 
 const About = () => {
   return (
     <>
-    <Navbar />
+    <Header />
     <section id="about">
       <p className="section__text__p1">Get To Know More</p>
       <h1 className="title">About Me</h1>

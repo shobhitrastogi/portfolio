@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './../navbar/Navbar';
+import Header from '../header/Header';
 
 const Main = () => {
   return (
     <>
-    <Navbar />
+    <Header />
     <section id="profile">
       <div className="section__pic-container">
       <img src="https://drive.google.com/uc?id=1JSl3158TOIA8mnf7JFcuZxxKZiaRcjIG" alt="Shobhit Rastogi" />
@@ -16,7 +16,7 @@ const Main = () => {
         <p className="section__text__p2">Frontend Developer</p>
         <p className="section__text__p2">Mern Stack Developer</p>
         <button
-            className="btn btn-color-2"
+            className="btn btn-light"
             onClick={() => window.open('./assets/resume-example.pdf')}
           >
             Download CV
@@ -25,7 +25,7 @@ const Main = () => {
             href="https://linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-color-1"
+            className="btn btn-dark"
             style={{textDecoration:'none'}}
           >
             View LinkedIn

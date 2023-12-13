@@ -5,7 +5,7 @@ import About from './components/about-me/About';
 import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
 import Main from './components/main-section/Main';
-import Navbar from './components/navbar/Navbar';
+import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <>
     <Router>
     <Routes>
-    <Route  path='navbar' element={<Navbar/>}/>
+    <Route  path='navbar' element={<Header/>}/>
       <Route  path='/' element={<Main/>}/>
       <Route  path='about' element={<About/>}/>
       <Route  path='experience' element={<Experience/>}/>
