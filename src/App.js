@@ -1,4 +1,3 @@
-
 import './App.css';
 import './Mediaqueries.css';
 import About from './components/about-me/About';
