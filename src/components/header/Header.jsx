@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink, a } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,19 +12,19 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className=" btn btn-outline-dark m-2 btn-sm" aria-current="page" to="/">Home</NavLink>
+          <a className=" btn btn-outline-dark m-2 btn-sm active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <NavLink className=" btn btn-outline-dark m-2 btn-sm" to="/about">About</NavLink>
+          <a className=" btn btn-outline-dark m-2 btn-sm" href="#about">About</a>
         </li>
          <li className="nav-item">
-          <NavLink className=" btn btn-outline-dark m-2 btn-sm" to="/experience">Experience</NavLink>
+          <a className=" btn btn-outline-dark m-2 btn-sm" href="#experience">Experience</a>
         </li>
          <li className="nav-item">
-          <NavLink className=" btn btn-outline-dark m-2 btn-sm" to="/projects">Projects</NavLink>
+          <a className=" btn btn-outline-dark m-2 btn-sm" href="#projects">Projects</a>
         </li> 
         <li className="nav-item">
-          <NavLink className=" btn btn-outline-dark m-2 btn-sm" to="/contact">Contact-Me</NavLink>
+          <a className=" btn btn-outline-dark m-2 btn-sm" href="#contact">Contact-Me</a>
         </li>
       </ul>
       

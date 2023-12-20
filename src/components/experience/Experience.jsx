@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../header/Header';
 
 const Experience = () => {
   const skillsData = [
@@ -15,7 +14,6 @@ const Experience = () => {
 
   return (
     <>
-      <Header />
       <section id="experience">
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Experience</h1>

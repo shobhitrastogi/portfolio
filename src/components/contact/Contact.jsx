@@ -30,11 +30,11 @@ const Contact = () => {
       <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
-            <li><Link to="/" className='btn btn-outline-dark m-2 btn-lg'>Home</Link></li>
-            <li><Link to="/about" className='btn btn-outline-dark m-2 btn-lg'>About</Link></li>
-            <li><Link to="/experience"className='btn btn-outline-dark m-2 btn-lg'>Experience</Link></li>
-            <li><Link to="/projects"className='btn btn-outline-dark m-2 btn-lg'>Projects</Link></li>
-            <li><Link to="/contact"className='btn btn-outline-dark m-2 btn-lg'>Contact</Link></li>
+            <li><a href="#" className='btn btn-outline-dark m-2 btn-lg'>Home</a></li>
+            <li><a href="#about" className='btn btn-outline-dark m-2 btn-lg'>About</a></li>
+            <li><a href="#experience"className='btn btn-outline-dark m-2 btn-lg'>Experience</a></li>
+            <li><a href="#projects"className='btn btn-outline-dark m-2 btn-lg'>Projects</a></li>
+            <li><a href="#contact"className='btn btn-outline-dark m-2 btn-lg'>Contact</a></li>
           </ul>
         </div>
       </nav>

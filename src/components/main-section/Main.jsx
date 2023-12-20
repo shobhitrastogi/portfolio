@@ -1,10 +1,8 @@
 import React from 'react'
-import Header from '../header/Header';
 
 const Main = () => {
   return (
     <>
-    <Header />
     <section id="profile">
       <div className="section__pic-container">
       <img src="https://drive.google.com/uc?id=1JSl3158TOIA8mnf7JFcuZxxKZiaRcjIG" alt="Shobhit Rastogi" />

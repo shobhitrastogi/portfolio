@@ -1,23 +1,42 @@
 import React from 'react';
-import Header from '../header/Header';
-
+import Youtuve from '../../assets/youtuve.png'
+import TicTacToe from '../../assets/tic-tac-toe.png'
+import Pizza from '../../assets/pizza.png'
+import Ecommerce from '../../assets/ecommerce.png'
+import Chat from '../../assets/chat.png'
+import Portfolio from '../../assets/portfolio.png'
 const Projects = () => {
   const projectsData = [
     {
       title: 'Project One',
-      imageSrc: 'https://drive.google.com/uc?id=1JwuPP0FAMu6-H-r6AzZy5HyaROyaXlM-',
+      imageSrc: `${Youtuve}`,
       githubLink: 'https://github.com/shobhitrastogi/Youtube-Clone',
       liveDemoLink: 'https://youtuve.netlify.app/',
     },
     {
       title: 'Project Two',
-      imageSrc: 'https://drive.google.com/uc?id=1Ju7f1Nn4u9XiqvDc5aMPPqz-Klu5oIPF',
+      imageSrc: `${TicTacToe}`,
       githubLink: 'https://github.com/shobhitrastogi/Tic-Tac-Toe',
       liveDemoLink: 'https://tic-tac-toe-shobhit-rastogi.netlify.app/',
     },
     {
       title: 'Project Three',
-      imageSrc: 'https://drive.google.com/uc?id=1K53-uwgOHZWMEPkKhGPl0dJQe5YgHj_c',
+      imageSrc: `${Pizza}`,
+      githubLink: 'https://github.com/shobhitrastogi/inotebook-frontend',
+      liveDemoLink: 'https://inotebookrastogi.netlify.app/login',
+    },{
+      title: 'Project Three',
+      imageSrc: `${Ecommerce}`,
+      githubLink: 'https://github.com/shobhitrastogi/inotebook-frontend',
+      liveDemoLink: 'https://inotebookrastogi.netlify.app/login',
+    },{
+      title: 'Project Three',
+      imageSrc: `${Chat}`,
+      githubLink: 'https://github.com/shobhitrastogi/inotebook-frontend',
+      liveDemoLink: 'https://inotebookrastogi.netlify.app/login',
+    },{
+      title: 'Project Three',
+      imageSrc: `${Portfolio}`,
       githubLink: 'https://github.com/shobhitrastogi/inotebook-frontend',
       liveDemoLink: 'https://inotebookrastogi.netlify.app/login',
     },
@@ -25,7 +44,6 @@ const Projects = () => {
 
   return (
     <>
-      <Header />
       <section id="projects">
         <p className="section__text__p1">Browse My Recent</p>
         <h1 className="title">Projects</h1>
