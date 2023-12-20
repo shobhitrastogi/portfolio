@@ -7,20 +7,18 @@ import Contact from './components/contact/Contact';
 import Main from './components/main-section/Main';
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 function App() {
   return (
     <>
     <Router>
-    <Routes>
-    <Route  path='navbar' element={<Header/>}/>
-      <Route  path='/' element={<Main/>}/>
-      <Route  path='about' element={<About/>}/>
-      <Route  path='experience' element={<Experience/>}/>
-      <Route  path='projects' element={<Projects/>}/>
-      <Route  path='/contact' element={<Contact/>}/>
-      
-    </Routes>
+      <Header />
+      <Main />
+    
+    <About />
+    <Experience />
+    <Projects />
+    <Contact />
     </Router>
     </>
   );
