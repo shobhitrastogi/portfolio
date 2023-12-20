@@ -16,7 +16,7 @@ const Main = () => {
         <p className="section__text__p2">Frontend Developer</p>
         <p className="section__text__p2">Mern Stack Developer</p>
         <button
-            className="btn btn-light"
+            className="btn btn-outline-warning btn-lg"
             onClick={() => window.open('./assets/resume-example.pdf')}
           >
             Download CV
@@ -25,7 +25,7 @@ const Main = () => {
             href="https://linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-dark"
+            className="btn btn-outline-dark btn-lg"
             style={{textDecoration:'none'}}
           >
             View LinkedIn
