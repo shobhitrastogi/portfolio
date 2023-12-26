@@ -14,7 +14,7 @@ const Contact = () => {
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
-          <p><Link to="mailto:examplemail@gmail.com"className='text-dark'>rshobhit255@gmail.com</Link></p>
+          <p><Link to="https://www.gmail.rshobhit255@gmail.com"className='text-dark'>rshobhit255@gmail.com</Link></p>
         </div>
         <div className="contact-info-container">
           <img
@@ -22,7 +22,7 @@ const Contact = () => {
             alt="LinkedIn icon"
             className="icon contact-icon"
           />
-          <p><Link to="https://www.linkedin.com" className='text-dark'>LinkedIn</Link></p>
+          <p><Link to="https://www.linkedin.com/in/shobhit-rastogi-/" className='text-dark'>LinkedIn</Link></p>
         </div>
       </div>
     </section>
@@ -34,11 +34,10 @@ const Contact = () => {
             <li><a href="#about" className='btn btn-outline-dark m-2 btn-lg'>About</a></li>
             <li><a href="#experience"className='btn btn-outline-dark m-2 btn-lg'>Experience</a></li>
             <li><a href="#projects"className='btn btn-outline-dark m-2 btn-lg'>Projects</a></li>
-            <li><a href="#contact"className='btn btn-outline-dark m-2 btn-lg'>Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Shobhit Rastogi. All Rights Reserved.</p>
+      <p>~~Made By Shobhit Rastogi~~</p>
     </footer>
     </>
   )

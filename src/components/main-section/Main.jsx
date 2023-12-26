@@ -5,7 +5,7 @@ const Main = () => {
     <>
     <section id="profile">
       <div className="section__pic-container">
-      <img src="https://drive.google.com/uc?id=1JSl3158TOIA8mnf7JFcuZxxKZiaRcjIG" alt="Shobhit Rastogi" />
+      <img src="https://drive.google.com/uc?id=1JSl3158TOIA8mnf7JFcuZxxKZiaRcjIG" className='rounded' alt="Shobhit Rastogi" />
 
       </div>
       <div className="section__text">
@@ -15,15 +15,15 @@ const Main = () => {
         <p className="section__text__p2">Mern Stack Developer</p>
         <button
             className="btn btn-outline-warning btn-lg"
-            onClick={() => window.open('./assets/resume-example.pdf')}
+            onClick={() => window.open('https://drive.google.com/file/d/1OU7KX4rtEAc5HJNHqicSHGBzL4jQKuVI/view?usp=drive_link')}
           >
             Download CV
           </button>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/shobhit-rastogi-/"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-outline-dark btn-lg"
+            className="btn btn-outline-dark btn-lg m-4"
             style={{textDecoration:'none'}}
           >
             View LinkedIn

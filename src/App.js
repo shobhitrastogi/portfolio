@@ -13,7 +13,6 @@ function App() {
     <Router>
       <Header />
       <Main />
-    
     <About />
     <Experience />
     <Projects />
